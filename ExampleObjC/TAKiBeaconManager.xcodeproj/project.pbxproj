@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4E7B7AC1BA9330400DA8FA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7B7AB1BA9330400DA8FA7 /* main.m */; };
+		F4E7B7AF1BA9330400DA8FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7B7AE1BA9330400DA8FA7 /* AppDelegate.m */; };
+		F4E7B7B21BA9330400DA8FA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7B7B11BA9330400DA8FA7 /* ViewController.m */; };
+		F4E7B7B51BA9330400DA8FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E7B7B31BA9330400DA8FA7 /* Main.storyboard */; };
+		F4E7B7B71BA9330400DA8FA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E7B7B61BA9330400DA8FA7 /* Images.xcassets */; };
+		F4E7B7BA1BA9330400DA8FA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E7B7B81BA9330400DA8FA7 /* LaunchScreen.xib */; };
+		F4E7B7C61BA9330400DA8FA7 /* TAKiBeaconManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7B7C51BA9330400DA8FA7 /* TAKiBeaconManagerTests.m */; };
+		F4E7B7DA1BA934B100DA8FA7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E7B7D81BA934B100DA8FA7 /* CoreBluetooth.framework */; };
+		F4E7B7DB1BA934B100DA8FA7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E7B7D91BA934B100DA8FA7 /* CoreLocation.framework */; };
+		F4E7B7E91BA9651600DA8FA7 /* TAKBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7B7E21BA9651600DA8FA7 /* TAKBlueToothManager.m */; };
+		F4E7B7EA1BA9651600DA8FA7 /* TAKiBeaconConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7B7E51BA9651600DA8FA7 /* TAKiBeaconConnector.m */; };
+		F4E7B7EB1BA9651600DA8FA7 /* TAKiBeaconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7B7E81BA9651600DA8FA7 /* TAKiBeaconModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4E7B7C01BA9330400DA8FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E7B79E1BA9330400DA8FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E7B7A51BA9330400DA8FA7;
+			remoteInfo = TAKiBeaconManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4E7B7A61BA9330400DA8FA7 /* TAKiBeaconManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAKiBeaconManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E7B7AA1BA9330400DA8FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E7B7AB1BA9330400DA8FA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4E7B7AD1BA9330400DA8FA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4E7B7AE1BA9330400DA8FA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4E7B7B01BA9330400DA8FA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4E7B7B11BA9330400DA8FA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4E7B7B41BA9330400DA8FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4E7B7B61BA9330400DA8FA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4E7B7B91BA9330400DA8FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4E7B7BF1BA9330400DA8FA7 /* TAKiBeaconManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAKiBeaconManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E7B7C41BA9330400DA8FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E7B7C51BA9330400DA8FA7 /* TAKiBeaconManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAKiBeaconManagerTests.m; sourceTree = "<group>"; };
+		F4E7B7D81BA934B100DA8FA7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		F4E7B7D91BA934B100DA8FA7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F4E7B7E11BA9651600DA8FA7 /* TAKBlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAKBlueToothManager.h; sourceTree = "<group>"; };
+		F4E7B7E21BA9651600DA8FA7 /* TAKBlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAKBlueToothManager.m; sourceTree = "<group>"; };
+		F4E7B7E41BA9651600DA8FA7 /* TAKiBeaconConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAKiBeaconConnector.h; sourceTree = "<group>"; };
+		F4E7B7E51BA9651600DA8FA7 /* TAKiBeaconConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAKiBeaconConnector.m; sourceTree = "<group>"; };
+		F4E7B7E71BA9651600DA8FA7 /* TAKiBeaconModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAKiBeaconModel.h; sourceTree = "<group>"; };
+		F4E7B7E81BA9651600DA8FA7 /* TAKiBeaconModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAKiBeaconModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E7B7A31BA9330400DA8FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E7B7DA1BA934B100DA8FA7 /* CoreBluetooth.framework in Frameworks */,
+				F4E7B7DB1BA934B100DA8FA7 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E7B7BC1BA9330400DA8FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4E7B79D1BA9330400DA8FA7 = {
+			isa = PBXGroup;
+			children = (
+				F4E7B7A81BA9330400DA8FA7 /* TAKiBeaconManager */,
+				F4E7B7C21BA9330400DA8FA7 /* TAKiBeaconManagerTests */,
+				F4E7B7A71BA9330400DA8FA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E7B7A71BA9330400DA8FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E7B7A61BA9330400DA8FA7 /* TAKiBeaconManager.app */,
+				F4E7B7BF1BA9330400DA8FA7 /* TAKiBeaconManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E7B7A81BA9330400DA8FA7 /* TAKiBeaconManager */ = {
+			isa = PBXGroup;
+			children = (
+				F4E7B7AD1BA9330400DA8FA7 /* AppDelegate.h */,
+				F4E7B7AE1BA9330400DA8FA7 /* AppDelegate.m */,
+				F4E7B7B01BA9330400DA8FA7 /* ViewController.h */,
+				F4E7B7B11BA9330400DA8FA7 /* ViewController.m */,
+				F4E7B7CF1BA9341100DA8FA7 /* TAKiBeaconManager */,
+				F4E7B7B31BA9330400DA8FA7 /* Main.storyboard */,
+				F4E7B7B61BA9330400DA8FA7 /* Images.xcassets */,
+				F4E7B7B81BA9330400DA8FA7 /* LaunchScreen.xib */,
+				F4E7B7D81BA934B100DA8FA7 /* CoreBluetooth.framework */,
+				F4E7B7D91BA934B100DA8FA7 /* CoreLocation.framework */,
+				F4E7B7A91BA9330400DA8FA7 /* Supporting Files */,
+			);
+			path = TAKiBeaconManager;
+			sourceTree = "<group>";
+		};
+		F4E7B7A91BA9330400DA8FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4E7B7AA1BA9330400DA8FA7 /* Info.plist */,
+				F4E7B7AB1BA9330400DA8FA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4E7B7C21BA9330400DA8FA7 /* TAKiBeaconManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E7B7C51BA9330400DA8FA7 /* TAKiBeaconManagerTests.m */,
+				F4E7B7C31BA9330400DA8FA7 /* Supporting Files */,
+			);
+			path = TAKiBeaconManagerTests;
+			sourceTree = "<group>";
+		};
+		F4E7B7C31BA9330400DA8FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4E7B7C41BA9330400DA8FA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4E7B7CF1BA9341100DA8FA7 /* TAKiBeaconManager */ = {
+			isa = PBXGroup;
+			children = (
+				F4E7B7E01BA9651600DA8FA7 /* BlueToothManager */,
+				F4E7B7E31BA9651600DA8FA7 /* iBeaconConnector */,
+				F4E7B7E61BA9651600DA8FA7 /* Model */,
+			);
+			name = TAKiBeaconManager;
+			sourceTree = "<group>";
+		};
+		F4E7B7E01BA9651600DA8FA7 /* BlueToothManager */ = {
+			isa = PBXGroup;
+			children = (
+				F4E7B7E11BA9651600DA8FA7 /* TAKBlueToothManager.h */,
+				F4E7B7E21BA9651600DA8FA7 /* TAKBlueToothManager.m */,
+			);
+			name = BlueToothManager;
+			path = ../../TAKiBeaconManager/ObjC/BlueToothManager;
+			sourceTree = "<group>";
+		};
+		F4E7B7E31BA9651600DA8FA7 /* iBeaconConnector */ = {
+			isa = PBXGroup;
+			children = (
+				F4E7B7E41BA9651600DA8FA7 /* TAKiBeaconConnector.h */,
+				F4E7B7E51BA9651600DA8FA7 /* TAKiBeaconConnector.m */,
+			);
+			name = iBeaconConnector;
+			path = ../../TAKiBeaconManager/ObjC/iBeaconConnector;
+			sourceTree = "<group>";
+		};
+		F4E7B7E61BA9651600DA8FA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4E7B7E71BA9651600DA8FA7 /* TAKiBeaconModel.h */,
+				F4E7B7E81BA9651600DA8FA7 /* TAKiBeaconModel.m */,
+			);
+			name = Model;
+			path = ../../TAKiBeaconManager/ObjC/Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E7B7A51BA9330400DA8FA7 /* TAKiBeaconManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E7B7C91BA9330400DA8FA7 /* Build configuration list for PBXNativeTarget "TAKiBeaconManager" */;
+			buildPhases = (
+				F4E7B7A21BA9330400DA8FA7 /* Sources */,
+				F4E7B7A31BA9330400DA8FA7 /* Frameworks */,
+				F4E7B7A41BA9330400DA8FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAKiBeaconManager;
+			productName = TAKiBeaconManager;
+			productReference = F4E7B7A61BA9330400DA8FA7 /* TAKiBeaconManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4E7B7BE1BA9330400DA8FA7 /* TAKiBeaconManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E7B7CC1BA9330400DA8FA7 /* Build configuration list for PBXNativeTarget "TAKiBeaconManagerTests" */;
+			buildPhases = (
+				F4E7B7BB1BA9330400DA8FA7 /* Sources */,
+				F4E7B7BC1BA9330400DA8FA7 /* Frameworks */,
+				F4E7B7BD1BA9330400DA8FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E7B7C11BA9330400DA8FA7 /* PBXTargetDependency */,
+			);
+			name = TAKiBeaconManagerTests;
+			productName = TAKiBeaconManagerTests;
+			productReference = F4E7B7BF1BA9330400DA8FA7 /* TAKiBeaconManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E7B79E1BA9330400DA8FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = TakuNishimura;
+				TargetAttributes = {
+					F4E7B7A51BA9330400DA8FA7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F4E7B7BE1BA9330400DA8FA7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F4E7B7A51BA9330400DA8FA7;
+					};
+				};
+			};
+			buildConfigurationList = F4E7B7A11BA9330400DA8FA7 /* Build configuration list for PBXProject "TAKiBeaconManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E7B79D1BA9330400DA8FA7;
+			productRefGroup = F4E7B7A71BA9330400DA8FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E7B7A51BA9330400DA8FA7 /* TAKiBeaconManager */,
+				F4E7B7BE1BA9330400DA8FA7 /* TAKiBeaconManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E7B7A41BA9330400DA8FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E7B7B51BA9330400DA8FA7 /* Main.storyboard in Resources */,
+				F4E7B7BA1BA9330400DA8FA7 /* LaunchScreen.xib in Resources */,
+				F4E7B7B71BA9330400DA8FA7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E7B7BD1BA9330400DA8FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E7B7A21BA9330400DA8FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E7B7B21BA9330400DA8FA7 /* ViewController.m in Sources */,
+				F4E7B7E91BA9651600DA8FA7 /* TAKBlueToothManager.m in Sources */,
+				F4E7B7EB1BA9651600DA8FA7 /* TAKiBeaconModel.m in Sources */,
+				F4E7B7EA1BA9651600DA8FA7 /* TAKiBeaconConnector.m in Sources */,
+				F4E7B7AF1BA9330400DA8FA7 /* AppDelegate.m in Sources */,
+				F4E7B7AC1BA9330400DA8FA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E7B7BB1BA9330400DA8FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E7B7C61BA9330400DA8FA7 /* TAKiBeaconManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4E7B7C11BA9330400DA8FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E7B7A51BA9330400DA8FA7 /* TAKiBeaconManager */;
+			targetProxy = F4E7B7C01BA9330400DA8FA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4E7B7B31BA9330400DA8FA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E7B7B41BA9330400DA8FA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4E7B7B81BA9330400DA8FA7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E7B7B91BA9330400DA8FA7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E7B7C71BA9330400DA8FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4E7B7C81BA9330400DA8FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E7B7CA1BA9330400DA8FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TAKiBeaconManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4E7B7CB1BA9330400DA8FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TAKiBeaconManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4E7B7CD1BA9330400DA8FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TAKiBeaconManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAKiBeaconManager.app/TAKiBeaconManager";
+			};
+			name = Debug;
+		};
+		F4E7B7CE1BA9330400DA8FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TAKiBeaconManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAKiBeaconManager.app/TAKiBeaconManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E7B7A11BA9330400DA8FA7 /* Build configuration list for PBXProject "TAKiBeaconManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E7B7C71BA9330400DA8FA7 /* Debug */,
+				F4E7B7C81BA9330400DA8FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E7B7C91BA9330400DA8FA7 /* Build configuration list for PBXNativeTarget "TAKiBeaconManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E7B7CA1BA9330400DA8FA7 /* Debug */,
+				F4E7B7CB1BA9330400DA8FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E7B7CC1BA9330400DA8FA7 /* Build configuration list for PBXNativeTarget "TAKiBeaconManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E7B7CD1BA9330400DA8FA7 /* Debug */,
+				F4E7B7CE1BA9330400DA8FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E7B79E1BA9330400DA8FA7 /* Project object */;
+}
