@@ -4,11 +4,11 @@ TAKiBeaconManager
 ##Installation with CocoaPods
 ###Podfile
 ```ruby
-pod 'TAKiBeaconManager'
+
 ```
 
 ###Requirements
-requires iOS 7
+requires iOS 7 & xCode7
 
 License
 ---
