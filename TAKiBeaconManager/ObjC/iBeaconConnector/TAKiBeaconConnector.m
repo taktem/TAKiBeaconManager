@@ -139,19 +139,35 @@ FAILURE_RANGING_BLOCK failureRangingBlock;
 }
 
 - (void)locationManager:(CLLocationManager *)manager didStartMonitoringForRegion:(CLRegion *)region {
+    if (![region.identifier isEqualToString:BEACON_IDENTIFIER]) {
+        return;
+    }
+    
     NSLog(@"didStartMonitoringForRegion");
     [self.locationManager requestStateForRegion:region];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
+    if (![region.identifier isEqualToString:BEACON_IDENTIFIER]) {
+        return;
+    }
+    
     NSLog(@"Entered region");
 }
 
 - (void)locationManager:(CLLocationManager *)manager didExitRegion:(CLRegion *)region {
+    if (![region.identifier isEqualToString:BEACON_IDENTIFIER]) {
+        return;
+    }
+    
     NSLog(@"Exited region");
 }
 
 - (void)locationManager:(CLLocationManager *)manager didDetermineState:(CLRegionState)state forRegion:(CLRegion *)region {
+    if (![region.identifier isEqualToString:BEACON_IDENTIFIER]) {
+        return;
+    }
+    
     ENCLRegionState regionState = ENCLRegionStateUnknown;
     
     switch (state) {
@@ -196,6 +212,10 @@ FAILURE_RANGING_BLOCK failureRangingBlock;
 }
 
 - (void)locationManager:(CLLocationManager *)manager didRangeBeacons:(NSArray *)beacons inRegion:(CLBeaconRegion *)region {
+    if (![region.identifier isEqualToString:BEACON_IDENTIFIER]) {
+        return;
+    }
+    
     NSMutableArray *modelArray = [NSMutableArray new];
     
     for (CLBeacon *beacon in beacons) {
