@@ -4,7 +4,7 @@ TAKiBeaconManager
 ##Installation with CocoaPods
 ###Podfile
 ```ruby
-
+pod 'TAKiBeaconManager', '~> 0.1.1'
 ```
 
 ###Requirements
