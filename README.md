@@ -8,7 +8,7 @@ pod 'TAKiBeaconManager', '~> 0.1.1'
 ```
 
 ###Requirements
-requires iOS 7 & xCode7
+requires iOS 7 & Xcode7
 
 License
 ---
